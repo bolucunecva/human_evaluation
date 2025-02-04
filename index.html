@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSV Annotator</title>
+    <title>CSV Annotator with Files</title>
 </head>
 <body>
     <h2 id="rowTitle">CSV Row Annotator</h2>
     
     <div id="rowDisplay"></div>
-    
+
+    <div id="fileDisplay">
+        <h3>Attached File:</h3>
+        <div id="fileContainer"></div>
+    </div>
+
     <label for="quality">Quality:</label>
     <select id="quality">
         <option value="1">1</option>
@@ -51,15 +56,50 @@
                 let rowData = rows[currentIndex];
 
                 // Set title using the ID field (first column)
-                document.getElementById("rowTitle").innerText = `Annotating: ${rowData[0]}`;
+                let rowID = rowData[0];
+                document.getElementById("rowTitle").innerText = `Annotating: ${rowID}`;
 
-                // Display row data with headers
+                // Display only first three columns
                 let displayHTML = headers.map((header, i) => `<strong>${header}:</strong> ${rowData[i]}`).join("<br>");
                 document.getElementById("rowDisplay").innerHTML = displayHTML;
+
+                // Try to load a corresponding file
+                loadFile(rowID);
             }
 
             // Load previous annotation if exists
             document.getElementById("quality").value = annotations[currentIndex] || "1";
+        }
+
+        function loadFile(rowID) {
+            let fileContainer = document.getElementById("fileContainer");
+            fileContainer.innerHTML = ""; // Clear previous file
+
+            let imagePath = `files/${rowID}.png`; // Adjust extension as needed
+            let pdfPath = `files/${rowID}.pdf`;
+
+            // Try loading an image
+            let img = new Image();
+            img.src = imagePath;
+            img.alt = "Loading image...";
+            img.style.maxWidth = "500px";
+            img.onload = function() {
+                fileContainer.appendChild(img);
+            };
+            
+            // If image fails, try loading a PDF link
+            img.onerror = function() {
+                let pdfLink = document.createElement("a");
+                pdfLink.href = pdfPath;
+                pdfLink.target = "_blank";
+                pdfLink.innerText = "View PDF";
+                
+                fetch(pdfPath, { method: "HEAD" }) // Check if file exists
+                    .then(response => {
+                        if (response.ok) fileContainer.appendChild(pdfLink);
+                    })
+                    .catch(() => console.log("No file found for", rowID));
+            };
         }
 
         function nextRow() {
