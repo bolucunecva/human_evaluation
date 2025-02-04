@@ -20,7 +20,7 @@
     <br><br>
     <button onclick="prevRow()">Previous</button>
     <button onclick="nextRow()">Next</button>
-    <button onclick="downloadAnnotations()">Download Annotations</button>
+    <button onclick="submitToFormspree()">Submit Annotations</button>
 
     <script>
         let rows = [];
@@ -68,19 +68,22 @@
             annotations[currentIndex] = document.getElementById('quality').value;
         }
 
-        function downloadAnnotations() {
-            let csvContent = "data:text/csv;charset=utf-8,Row,Quality\n";
-            for (let i = 0; i < rows.length; i++) {
-                csvContent += rows[i].join(',') + ',' + (annotations[i] || "1") + "\n";
-            }
-            const encodedUri = encodeURI(csvContent);
-            const link = document.createElement("a");
-            link.setAttribute("href", encodedUri);
-            link.setAttribute("download", "annotations.csv");
-            document.body.appendChild(link);
-            link.click();
+        function submitToFormspree() {
+            saveAnnotation();
+            let formData = new FormData();
+            formData.append("annotations", JSON.stringify(annotations));
+            
+            fetch("https://formspree.io/f/movjwzvr", {
+                method: "POST",
+                body: formData
+            }).then(response => {
+                if (response.ok) {
+                    alert("Annotations submitted successfully!");
+                } else {
+                    alert("Error submitting annotations.");
+                }
+            });
         }
     </script>
 </body>
 </html>
-
