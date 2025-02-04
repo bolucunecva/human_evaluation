@@ -1,0 +1,25 @@
+﻿ID,insect_family,insect_taxon,plant_family,plant_taxon,plant_organ,1st,2nd,3rd
+053_mdpi_8791fc1b_8848_4252_a995_4f976c168580.pdf,Miridae,Apolygus lucorum,Moraceae,Humulus scandens,flowers,0.9,0.8,1
+053_mdpi_8791fc1b_8848_4252_a995_4f976c168580.pdf,Miridae,Apolygus lucorum,Asteraceae,Artemisia lavandulaefolia,flowers,0.9,0.8,1
+053_mdpi_8791fc1b_8848_4252_a995_4f976c168580.pdf,Miridae,Apolygus lucorum,Asteraceae,Conyza canadensis,flowers,0.9,0.9,1
+053_mdpi_8791fc1b_8848_4252_a995_4f976c168580.pdf,Miridae,Apolygus lucorum,Asteraceae,Artemisia annua,flowers,0.9,0.7,0.833333333
+053_mdpi_8791fc1b_8848_4252_a995_4f976c168580.pdf,Miridae,Apolygus lucorum,Theaceae,Camellia sinensis,"buds, shoots, flowers",0.9,0.9,0.8
+044_wiley_8ed6cbc8_6450_47d8_a944_9607e91a966b.pdf,Noctuidae,Spodoptera frugiperda,Poaceae,Zea mays,whole plant,1,1,0.75
+044_wiley_8ed6cbc8_6450_47d8_a944_9607e91a966b.pdf,Noctuidae,Spodoptera frugiperda,Poaceae,Sorghum bicolor,whole plant,1,0.9,1
+044_wiley_8ed6cbc8_6450_47d8_a944_9607e91a966b.pdf,Noctuidae,Spodoptera frugiperda,Poaceae,Triticum aestivum,whole plant,0.9,1,1
+044_wiley_8ed6cbc8_6450_47d8_a944_9607e91a966b.pdf,Noctuidae,Spodoptera frugiperda,Fabaceae,Phaseolus vulgaris,whole plant,0.9,1,0.75
+044_wiley_8ed6cbc8_6450_47d8_a944_9607e91a966b.pdf,Noctuidae,Spodoptera frugiperda,Fabaceae,Vigna unguiculata,whole plant,0.9,0.9,0.75
+044_wiley_8ed6cbc8_6450_47d8_a944_9607e91a966b.pdf,Noctuidae,Spodoptera frugiperda,Solanaceae,Solanum lycopersicum,whole plant,0.9,1,0.75
+044_wiley_8ed6cbc8_6450_47d8_a944_9607e91a966b.pdf,Noctuidae,Spodoptera frugiperda,Brassicaceae,Brassica oleracea,whole plant,0.9,0.9,0.666666667
+067_wiley_b07acb4b_a7f8_4f2b_b740_c0232b1a88f1.pdf,Curculionidae,Cosmopolites sordidus,Musaceae,Musa L.,corm,1,1,1
+067_wiley_b07acb4b_a7f8_4f2b_b740_c0232b1a88f1.pdf,Curculionidae,Cosmopolites sordidus,Musaceae,Musa spp.,corm,1,0.9,1
+067_wiley_b07acb4b_a7f8_4f2b_b740_c0232b1a88f1.pdf,Curculionidae,Cosmopolites sordidus,Musaceae,Musa spp.,pseudostem,1,0.8,1
+067_wiley_b07acb4b_a7f8_4f2b_b740_c0232b1a88f1.pdf,Curculionidae,Cosmopolites sordidus,Musaceae,Musa spp.,corm central cylinder and cortex,1,0.9,0.8
+067_wiley_b07acb4b_a7f8_4f2b_b740_c0232b1a88f1.pdf,Curculionidae,Cosmopolites sordidus,Musaceae,Musa spp.,corm,1,1,1
+067_wiley_b07acb4b_a7f8_4f2b_b740_c0232b1a88f1.pdf,Curculionidae,Cosmopolites sordidus,Musaceae,Musa spp.,corm and pseudostem,1,0.9,0.75
+048_springer_33317457_4ffb_437a_bb3a_505c2639dddb.pdf,Dactylopiidae,Dactylopius opuntiae,Cactaceae,Opuntia ficus-indica,Not Provided,1,0.9,1
+049_springer_88824653_b43e_4008_9bf7_6248fbb2250f.pdf,Chrysomelidae,Callosobruchus chinensis,Fabaceae,Lens culinaris,Not Provided,1,1,1
+069_wiley_463f74ef_2da8_42e4_9d76_6015d30105ab.pdf,Tortricidae,Cydia pomonella L.,Rosaceae,Cydonia oblonga,fruits,0.9,0.7,1
+069_wiley_463f74ef_2da8_42e4_9d76_6015d30105ab.pdf,Tortricidae,Cydia pomonella L.,Rosaceae,Malus domestica,fruits,0.9,0.8,1
+069_wiley_463f74ef_2da8_42e4_9d76_6015d30105ab.pdf,Tortricidae,Cydia pomonella L.,Rosaceae,Pyrus communis,fruits,0.9,1,1
+042_wiley_15473b69_04d9_45e7_b6d3_549768458499.pdf,Aphididae,"Cryptomyzus galeopsidis, Cryptomyzus maudamanti, Cryptomyzus ribis","Ribes (red currant, black currant), Labiatae","Ribes rubrum, Ribes nigrum",Not Provided,0.9,0.9,0.818181818
