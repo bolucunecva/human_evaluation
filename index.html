@@ -41,8 +41,8 @@
                 .then(response => response.text())
                 .then(text => {
                     let lines = text.trim().split("\n").map(row => row.split(","));
-                    headers = lines[0].slice(0, 3); // First three columns only
-                    rows = lines.slice(1).map(row => row.slice(0, 3)); // Keep only first three columns
+                    headers = lines[0].slice(0, 6); // First three columns only
+                    rows = lines.slice(1).map(row => row.slice(0, 6)); // Keep only first three columns
                     displayRow();
                 })
                 .catch(error => console.error("Error loading CSV:", error));
