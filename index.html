@@ -78,21 +78,26 @@
             img.src = imagePath;
             img.alt = "Loading image...";
             img.style.maxWidth = "100%";
+            img.style.borderRadius = "5px";
+            img.style.marginTop = "10px";
+
             img.onload = function() {
                 fileContainer.appendChild(img);
             };
             
             img.onerror = function() {
-                let pdfLink = document.createElement("a");
-                pdfLink.href = pdfPath;
-                pdfLink.target = "_blank";
-                pdfLink.innerText = "View PDF";
-                
+                let pdfEmbed = document.createElement("embed");
+                pdfEmbed.src = pdfPath;
+                pdfEmbed.type = "application/pdf";
+                pdfEmbed.width = "100%";
+                pdfEmbed.height = "400px";
+
                 fetch(pdfPath, { method: "HEAD" })
                     .then(response => {
-                        if (response.ok) fileContainer.appendChild(pdfLink);
+                        if (response.ok) fileContainer.appendChild(pdfEmbed);
+                        else fileContainer.innerHTML = "<p>No attached file available.</p>";
                     })
-                    .catch(() => console.log("No file found for", rowID));
+                    .catch(() => fileContainer.innerHTML = "<p>No attached file available.</p>");
             };
         }
 
@@ -111,7 +116,6 @@
                 displayRow();
             }
         }
-
         function saveAnnotation() {
             annotations[currentIndex] = document.getElementById("quality").value;
         }
