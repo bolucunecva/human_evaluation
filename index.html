@@ -7,7 +7,6 @@
 </head>
 <body>
     <h2>CSV Row Annotator</h2>
-    <input type="file" id="csvFile" accept=".csv">
     <div id="rowDisplay"></div>
     <label for="quality">Quality:</label>
     <select id="quality">
@@ -27,23 +26,21 @@
         let currentIndex = 0;
         let annotations = {};
 
-        document.getElementById('csvFile').addEventListener('change', function(event) {
-            const file = event.target.files[0];
-            const reader = new FileReader();
-            
-            reader.onload = function(e) {
-                const text = e.target.result;
-                rows = text.split('\n').map(row => row.split(','));
-                displayRow();
-            };
-            
-            reader.readAsText(file);
-        });
+        // Automatically load CSV when the page loads
+        window.onload = function() {
+            fetch("annotations.csv")
+                .then(response => response.text())
+                .then(text => {
+                    rows = text.split('\\n').map(row => row.split(','));
+                    displayRow();
+                })
+                .catch(error => console.error("Error loading CSV:", error));
+        };
 
         function displayRow() {
             if (currentIndex < 0) currentIndex = 0;
             if (currentIndex >= rows.length) currentIndex = rows.length - 1;
-            
+
             document.getElementById('rowDisplay').innerHTML = `<strong>Row ${currentIndex + 1}:</strong> ` + rows[currentIndex].join(', ');
             document.getElementById('quality').value = annotations[currentIndex] || "1";
         }
@@ -72,8 +69,8 @@
             saveAnnotation();
             let formData = new FormData();
             formData.append("annotations", JSON.stringify(annotations));
-            
-            fetch("https://formspree.io/f/movjwzvr", {
+
+            fetch("https://formspree.io/f/YOUR_FORM_ID", {
                 method: "POST",
                 body: formData
             }).then(response => {
