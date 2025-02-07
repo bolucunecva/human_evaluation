@@ -42,8 +42,8 @@
                 .then(response => response.text())
                 .then(text => {
                     let lines = text.trim().split("\n").map(row => row.split(","));
-                    headers = lines[0].slice(0, 6);
-                    rows = lines.slice(1).map(row => row.slice(0, 6));
+                    headers = lines[0].slice(0, 8);
+                    rows = lines.slice(1).map(row => row.slice(0, 8));
                     displayRow();
                 })
                 .catch(error => console.error("Error loading CSV:", error));
