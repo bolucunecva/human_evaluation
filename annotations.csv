@@ -1,56 +1,56 @@
-﻿ID,Experiment heading,Experiment name,Experimental paradigm,Sample Size,Cue types,Target types,SOA (ms)
-1993_12300_001.pdf,Experiment 1,Experiment 1, spatial cuing paradigm,40,abrupt onset,abrupt onset; color discontinuity,150
-1993_12300_001.pdf,Experiment 2,Experiment 2,spatial cuing paradigm,40, color discontinuity,abrupt onset; color discontinuity,150
-1993_12300_001.pdf,Experiment 3,Experiment 3,spatial cuing paradigm,24,"abrupt onset, color discontinuity","abrupt onset, color discontinuity",150
-1993_12300_001.pdf,Experiment 4,Experiment 4,spatial cuing paradigm,15,color discontinuity,color discontinuity,"0, 50, 100, 150, 200"
-1998_02354_001.pdf,Experiment 1,Experiment 1,spatial cueing paradigm,16,"Onset, color ",Identity-defined letters (H or U),200
-1998_02354_001.pdf,Experiment 2,Experiment 2,spatial cueing paradigm,16,"Onset, color",Identity-defined letters (H or U),200
-2011_29716_001.pdf,Experiment 1,Experiment 1,Spatial cueing task,18,"red, green, or blue",red or green,150
-2011_29716_001.pdf,Experiment 2a,Experiment 2a,Spatial cueing task,21,"red, green, or blue",red or green,150
-2011_29716_001.pdf,Experiment 2b,Experiment 2b,Spatial cueing task,22,"blue, green, or red",blue or green,150
-2011_29716_001.pdf,Experiment 3,Experiment 3,Spatial cueing task,20,"red, green, or amber",red or green,150
-2011_29716_001.pdf,Experiment 4,Experiment 4,Spatial cueing task,22,"green, red, amber, aqua, or purple",red or green,150
-2011_29716_001.pdf,Experiment 5,Experiment 5,Spatial cueing task,18,"red, green, or blue",red or green,150
-2015_37981_001.pdf,EXPERIMENT 1,Experiment 1,spatial cueing paradigm,11,color discontinuity,color feature target,"150, 250"
-2015_37981_001.pdf,EXPERIMENT 2,Experiment 2,spatial-cueing paradigm,14,color discontinuity,color discontinuity target,"117, 150"
-2015_37981_001.pdf,EXPERIMENT 3,Experiment 3,spatial-cueing paradigm,21,colour discontinuity,color discontinuity target; colour feature target,250
-bf03194741.pdf,EXPERIMENT 1,Experiment 1,RSVP,33, color discontinuity,colour discontinuity target,"-84, 0, 84, 168"
-bf03194741.pdf,EXPERIMENT 2,Experiment 2,RSVP,32, color discontinuity,colour feature target,"-84, 0, 84, 168"
-bf03194741.pdf,EXPERIMENT 3,Experiment 3,RSVP,20, color discontinuity,colour feature target,"0, 168"
-bf03194741.pdf,EXPERIMENT 4,Experiment 4,RSVP,30, color discontinuity,colour feature target,"0, 168"
-BF03194470.pdf,EXPERIMENT 1,Experiment 1,spatial cuing paradigm,24,color discontinuity,color discontinuity,"100, 250, 450"
-BF03194470.pdf,EXPERIMENT 2,Experiment 2,spatial cuing paradigm,15,color discontinuity,color discontinuity,150
-BF03194470.pdf,EXPERIMENT 3,Experiment 3,spatial cuing paradigm,"26, 16",motion discontinuity,"motion discontinuity, color discontinuity",170
-Psychophysiology _ 2016 _ Huang _ The role of top_down spatial attention in contingent attentional capture.pdf,Experiment 1,Experiment 1,spatial cuing paradigm,12,color discontinuity,"color discontinuity, outlined singleton",200
-Psychophysiology _ 2016 _ Huang _ The role of top_down spatial attention in contingent attentional capture.pdf,Experiment 2,Experiment 2,"spatial cuing paradigm, RSVP paradigm",12,color discontinuity, color discontinuity,200
-Psychophysiology _ 2016 _ Huang _ The role of top_down spatial attention in contingent attentional capture.pdf,Experiment 3,Experiment 3,"RSVP paradigm, spatial cuing paradigm",12,color discontinuity,"color discontinuity, size discontinuity",200
-The role of cueing in attentional capture.pdf,EXPERIMENT 1,Experiment 1,irrelevant singleton paradigm,10,word cue (e.g. 'diamond'),shape singleton,NA
-The role of cueing in attentional capture.pdf,EXPERIMENT 2,Experiment 2,irrelevant singleton paradigm,11,symbolic cue (e.g. shape of a diamond),shape singleton,NA
-Attentional capture by entirely irrelevant distractors.pdf,EXPERIMENT 1,Experiment 1,irrelevant singleton paradigm,8,cartoon cue (e.g. Spiderman),letter singleton,
-Attentional capture by entirely irrelevant distractors.pdf,EXPERIMENT 2,Experiment 2,irrelevant singleton paradigm,8,cartoon cue (e.g. Spiderman),letter singleton,
-Attentional capture by entirely irrelevant distractors.pdf,EXPERIMENT 3,Experiment 3,irrelevant singleton paradigm,14,cartoon cue (e.g. Spiderman) or shape cue,letter singleton,
-Attentional capture by signals of threat.pdf,EXPERIMENT 1,Fear conditioning influences attentional capture in visual search,additional singleton paradigm,24,geometrical shapes (diamonds),circles containing oriented lines,
-BF03205298.pdf,EXPERIMENT 1,Experiment 1,irrelevant singleton paradigm,93,"motion cue (e.g. oscillation, looming, streaming texture)",letter singleton (T among Ls),
-BF03205298.pdf,EXPERIMENT 2,Experiment 2,global/local paradigm,17,"unique local letter (compatible, neutral, incompatible)",global letter (H or S),
-BF03205298.pdf,EXPERIMENT 3,Experiment 3,global/local paradigm,16,unique local letter with early or late motion,global letter (H or S),
-Progress toward resolving the attentional capture debate.pdf,Original versions of the opposing hypotheses,,spatial cuing paradigm,,red cue (e.g. 'diamond'),shape singleton,
-Progress toward resolving the attentional capture debate.pdf,Evidence for singleton suppression,,oculomotor search task,,colour singleton (i.e. the red object),shape singleton,
-Progress toward resolving the attentional capture debate.pdf,Stimuli and results from an early ERP study of attention capture,,additional singleton task,,colour singleton,letter,
-Progress toward resolving the attentional capture debate.pdf,Stimuli and results from another ERP study,,additional singleton task,,colour singleton,letter,
-anderson_et_al_2011_value_driven_attentional_capture.pdf,Experiment 1,Experiment 1,irrelevant singleton paradigm,26,word cue (e.g. 'diamond'),shape singleton,
-anderson_et_al_2011_value_driven_attentional_capture.pdf,Experiment 2,Experiment 2,irrelevant singleton paradigm,10,word cue (e.g. 'diamond'),shape singleton,
-anderson_et_al_2011_value_driven_attentional_capture.pdf,Experiment 3,Experiment 3,irrelevant singleton paradigm,24,word cue (e.g. 'diamond'),shape singleton,
-becker_et_al_2013_attentional_capture_does_not_depend_on_feature_similarity_but_on_target_nontarget_relations.pdf,EXPERIMENT 1,Experiment 1,irrelevant singleton paradigm,11,four-dot color singleton cue,color singleton target letter,100
-becker_et_al_2013_attentional_capture_does_not_depend_on_feature_similarity_but_on_target_nontarget_relations.pdf,EXPERIMENT 2,Experiment 2,feature search,14,four-dot color singleton cue and three four-dot cues of two different colors,color letter always orange among two yellow and two red nontarget letters,100
-becker_et_al_2013_attentional_capture_does_not_depend_on_feature_similarity_but_on_target_nontarget_relations.pdf,EXPERIMENT 3,Experiment 3,feature search with equiluminant colors,12,four-dot color singleton cue and three four-dot cues of two different equiluminant colors,equiluminant color letter intermediate between red and green among two red and two green nontarget letters,100
-file.pdf,EXPERIMENT 1,Experiment 1,irrelevant singleton paradigm,18,color cue (e.g. 'red'),shape singleton,
-file.pdf,EXPERIMENT 2,Experiment 2,irrelevant singleton paradigm,18,color cue (e.g. 'red'),shape singleton,
-s00426_021_01597_0.pdf,Challenges to the traditional interpretation of spatial cueing effects,Experiment 1,spatial cueing paradigm with briefly presented search displays,21,abrupt onset cue,shape singleton (circle among ellipses),
-s00426_021_01597_0.pdf,Challenges to the traditional interpretation of spatial cueing effects,Experiment 2,reanalysis of data from Lamy et al. (2018) experiment,data from Lamy et al. (2018) experiment,abrupt onset cue,shape singleton,
-s00426_021_01597_0.pdf,Challenges to the traditional interpretation of spatial cueing effects,Experiment 3,combination of spatial cueing and dot probe paradigms,21,abrupt onset cue,shape singleton (ellipse among ellipses),85
-s13414_017_1440_4.pdf,EXPERIMENT 1,Experiment 1,irrelevant singleton paradigm,36,abrupt onset cue (e.g. four white dots),"letter target defined by color (e.g., green) and then reporting that letter's identity",150
-s13414_017_1440_4.pdf,EXPERIMENT 2,Experiment 2,irrelevant singleton paradigm,38,abrupt onset cue (e.g. four white dots),perfect circle target vs oval distractor,150
-s13414_017_1440_4.pdf,EXPERIMENT 3,Experiment 3,contingent capture paradigm,36,color cue that could either match the target color or match the distractor color,"letter target defined by color (e.g., green) and then reporting that letter's identity",150
-s13414_022_02639_4.pdf,EXPERIMENT 1,Experiment 1,spatial cueing paradigm,16,"color singleton (e.g. pink, green)",color singleton,
-s13414_022_02639_4.pdf,EXPERIMENT 2,Experiment 2,spatial cueing paradigm,48,"color singleton (e.g. pink, green)",color singleton,
-yantis_1993_stimulus_driven_attentional_capture.pdf,,,,,,,
+,ID,Experiment heading,Experiment name,Experimental paradigm,Sample Size,Cue types,Target types,SOA (ms)
+7,2011_29716_001.pdf,Experiment 2a,Experiment 2a,Spatial cueing task,21,"red, green, or blue",red or green,150
+39,anderson_et_al_2011_value_driven_attentional_capture.pdf,Experiment 2,Experiment 2,irrelevant singleton paradigm,10,word cue (e.g. 'diamond'),shape singleton,
+3,1993_12300_001.pdf,Experiment 4,Experiment 4,spatial cuing paradigm,15,color discontinuity,color discontinuity,"0, 50, 100, 150, 200"
+47,s00426_021_01597_0.pdf,Challenges to the traditional interpretation of spatial cueing effects,Experiment 2,reanalysis of data from Lamy et al. (2018) experiment,data from Lamy et al. (2018) experiment,abrupt onset cue,shape singleton,
+38,anderson_et_al_2011_value_driven_attentional_capture.pdf,Experiment 1,Experiment 1,irrelevant singleton paradigm,26,word cue (e.g. 'diamond'),shape singleton,
+12,2015_37981_001.pdf,EXPERIMENT 1,Experiment 1,spatial cueing paradigm,11,color discontinuity,color feature target,"150, 250"
+34,Progress toward resolving the attentional capture debate.pdf,Original versions of the opposing hypotheses,,spatial cuing paradigm,,red cue (e.g. 'diamond'),shape singleton,
+19,BF03194470.pdf,EXPERIMENT 1,Experiment 1,spatial cuing paradigm,24,color discontinuity,color discontinuity,"100, 250, 450"
+24,Psychophysiology _ 2016 _ Huang _ The role of top_down spatial attention in contingent attentional capture.pdf,Experiment 3,Experiment 3,"RSVP paradigm, spatial cuing paradigm",12,color discontinuity,"color discontinuity, size discontinuity",200
+37,Progress toward resolving the attentional capture debate.pdf,Stimuli and results from another ERP study,,additional singleton task,,colour singleton,letter,
+48,s00426_021_01597_0.pdf,Challenges to the traditional interpretation of spatial cueing effects,Experiment 3,combination of spatial cueing and dot probe paradigms,21,abrupt onset cue,shape singleton (ellipse among ellipses),85
+25,The role of cueing in attentional capture.pdf,EXPERIMENT 1,Experiment 1,irrelevant singleton paradigm,10,word cue (e.g. 'diamond'),shape singleton,
+0,1993_12300_001.pdf,Experiment 1,Experiment 1, spatial cuing paradigm,40,abrupt onset,abrupt onset; color discontinuity,150
+13,2015_37981_001.pdf,EXPERIMENT 2,Experiment 2,spatial-cueing paradigm,14,color discontinuity,color discontinuity target,"117, 150"
+17,bf03194741.pdf,EXPERIMENT 3,Experiment 3,RSVP,20, color discontinuity,colour feature target,"0, 168"
+16,bf03194741.pdf,EXPERIMENT 2,Experiment 2,RSVP,32, color discontinuity,colour feature target,"-84, 0, 84, 168"
+29,Attentional capture by entirely irrelevant distractors.pdf,EXPERIMENT 3,Experiment 3,irrelevant singleton paradigm,14,cartoon cue (e.g. Spiderman) or shape cue,letter singleton,
+14,2015_37981_001.pdf,EXPERIMENT 3,Experiment 3,spatial-cueing paradigm,21,colour discontinuity,color discontinuity target; colour feature target,250
+35,Progress toward resolving the attentional capture debate.pdf,Evidence for singleton suppression,,oculomotor search task,,colour singleton (i.e. the red object),shape singleton,
+11,2011_29716_001.pdf,Experiment 5,Experiment 5,Spatial cueing task,18,"red, green, or blue",red or green,150
+49,s13414_017_1440_4.pdf,EXPERIMENT 1,Experiment 1,irrelevant singleton paradigm,36,abrupt onset cue (e.g. four white dots),"letter target defined by color (e.g., green) and then reporting that letter's identity",150
+5,1998_02354_001.pdf,Experiment 2,Experiment 2,spatial cueing paradigm,16,"Onset, color",Identity-defined letters (H or U),200
+21,BF03194470.pdf,EXPERIMENT 3,Experiment 3,spatial cuing paradigm,"26, 16",motion discontinuity,"motion discontinuity, color discontinuity",170
+1,1993_12300_001.pdf,Experiment 2,Experiment 2,spatial cuing paradigm,40, color discontinuity,abrupt onset; color discontinuity,150
+45,file.pdf,EXPERIMENT 2,Experiment 2,irrelevant singleton paradigm,18,color cue (e.g. 'red'),shape singleton,
+26,The role of cueing in attentional capture.pdf,EXPERIMENT 2,Experiment 2,irrelevant singleton paradigm,11,symbolic cue (e.g. shape of a diamond),shape singleton,
+43,becker_et_al_2013_attentional_capture_does_not_depend_on_feature_similarity_but_on_target_nontarget_relations.pdf,EXPERIMENT 3,Experiment 3,feature search with equiluminant colors,12,four-dot color singleton cue and three four-dot cues of two different equiluminant colors,equiluminant color letter intermediate between red and green among two red and two green nontarget letters,100
+22,Psychophysiology _ 2016 _ Huang _ The role of top_down spatial attention in contingent attentional capture.pdf,Experiment 1,Experiment 1,spatial cuing paradigm,12,color discontinuity,"color discontinuity, outlined singleton",200
+50,s13414_017_1440_4.pdf,EXPERIMENT 2,Experiment 2,irrelevant singleton paradigm,38,abrupt onset cue (e.g. four white dots),perfect circle target vs oval distractor,150
+27,Attentional capture by entirely irrelevant distractors.pdf,EXPERIMENT 1,Experiment 1,irrelevant singleton paradigm,8,cartoon cue (e.g. Spiderman),letter singleton,
+9,2011_29716_001.pdf,Experiment 3,Experiment 3,Spatial cueing task,20,"red, green, or amber",red or green,150
+32,BF03205298.pdf,EXPERIMENT 2,Experiment 2,global/local paradigm,17,"unique local letter (compatible, neutral, incompatible)",global letter (H or S),
+54,yantis_1993_stimulus_driven_attentional_capture.pdf,,,,,,,
+4,1998_02354_001.pdf,Experiment 1,Experiment 1,spatial cueing paradigm,16,"Onset, color ",Identity-defined letters (H or U),200
+53,s13414_022_02639_4.pdf,EXPERIMENT 2,Experiment 2,spatial cueing paradigm,48,"color singleton (e.g. pink, green)",color singleton,
+6,2011_29716_001.pdf,Experiment 1,Experiment 1,Spatial cueing task,18,"red, green, or blue",red or green,150
+51,s13414_017_1440_4.pdf,EXPERIMENT 3,Experiment 3,contingent capture paradigm,36,color cue that could either match the target color or match the distractor color,"letter target defined by color (e.g., green) and then reporting that letter's identity",150
+31,BF03205298.pdf,EXPERIMENT 1,Experiment 1,irrelevant singleton paradigm,93,"motion cue (e.g. oscillation, looming, streaming texture)",letter singleton (T among Ls),
+46,s00426_021_01597_0.pdf,Challenges to the traditional interpretation of spatial cueing effects,Experiment 1,spatial cueing paradigm with briefly presented search displays,21,abrupt onset cue,shape singleton (circle among ellipses),
+2,1993_12300_001.pdf,Experiment 3,Experiment 3,spatial cuing paradigm,24,"abrupt onset, color discontinuity","abrupt onset, color discontinuity",150
+33,BF03205298.pdf,EXPERIMENT 3,Experiment 3,global/local paradigm,16,unique local letter with early or late motion,global letter (H or S),
+18,bf03194741.pdf,EXPERIMENT 4,Experiment 4,RSVP,30, color discontinuity,colour feature target,"0, 168"
+8,2011_29716_001.pdf,Experiment 2b,Experiment 2b,Spatial cueing task,22,"blue, green, or red",blue or green,150
+40,anderson_et_al_2011_value_driven_attentional_capture.pdf,Experiment 3,Experiment 3,irrelevant singleton paradigm,24,word cue (e.g. 'diamond'),shape singleton,
+15,bf03194741.pdf,EXPERIMENT 1,Experiment 1,RSVP,33, color discontinuity,colour discontinuity target,"-84, 0, 84, 168"
+42,becker_et_al_2013_attentional_capture_does_not_depend_on_feature_similarity_but_on_target_nontarget_relations.pdf,EXPERIMENT 2,Experiment 2,feature search,14,four-dot color singleton cue and three four-dot cues of two different colors,color letter always orange among two yellow and two red nontarget letters,100
+41,becker_et_al_2013_attentional_capture_does_not_depend_on_feature_similarity_but_on_target_nontarget_relations.pdf,EXPERIMENT 1,Experiment 1,irrelevant singleton paradigm,11,four-dot color singleton cue,color singleton target letter,100
+30,Attentional capture by signals of threat.pdf,EXPERIMENT 1,Fear conditioning influences attentional capture in visual search,additional singleton paradigm,24,geometrical shapes (diamonds),circles containing oriented lines,
+10,2011_29716_001.pdf,Experiment 4,Experiment 4,Spatial cueing task,22,"green, red, amber, aqua, or purple",red or green,150
+23,Psychophysiology _ 2016 _ Huang _ The role of top_down spatial attention in contingent attentional capture.pdf,Experiment 2,Experiment 2,"spatial cuing paradigm, RSVP paradigm",12,color discontinuity, color discontinuity,200
+20,BF03194470.pdf,EXPERIMENT 2,Experiment 2,spatial cuing paradigm,15,color discontinuity,color discontinuity,150
+52,s13414_022_02639_4.pdf,EXPERIMENT 1,Experiment 1,spatial cueing paradigm,16,"color singleton (e.g. pink, green)",color singleton,
+44,file.pdf,EXPERIMENT 1,Experiment 1,irrelevant singleton paradigm,18,color cue (e.g. 'red'),shape singleton,
+36,Progress toward resolving the attentional capture debate.pdf,Stimuli and results from an early ERP study of attention capture,,additional singleton task,,colour singleton,letter,
+28,Attentional capture by entirely irrelevant distractors.pdf,EXPERIMENT 2,Experiment 2,irrelevant singleton paradigm,8,cartoon cue (e.g. Spiderman),letter singleton,
